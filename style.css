@@ -680,16 +680,12 @@ header .navbar ul li a:hover{
         width:100%;
     }
 
-    .membership .row .info{
-        width:100%;
-    }
+
 
     .contact .row form{
         margin:3rem 0;
     }
-    .vertical-line {
-        display: none;
-    }
+ 
  }
 
 
