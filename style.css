@@ -412,24 +412,7 @@ header .navbar ul li a:hover{
 }
 
 /* Add this CSS code for pop-up animation */
-.vertical-line {
-    width: 2px; /* Initial width of the line */
-    height: 0;
-    background-color: #00bfff; /* Color of the line */
-    position: absolute;
-    top: 16%;
-    left: 50%; /* Adjust the left position as needed */
-    transform: translateX(-50%);
-    transition: height 1s ease-out, opacity 1s ease-out;
-}
 
-/* Adjust the height and opacity for the final state of the pop-up */
-.vertical-line.active {
-    height: 345px; /* Adjust the final height of the line */
-    opacity: 1;
-    width: 8px;
-    border-radius: 8rem;
-}
 
 /* Update the CSS for the "Skills" section */
 
