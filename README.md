@@ -29,8 +29,8 @@ To run or modify this project, you'll need a code editor such as Visual Studio C
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-portfolio-repo.git
-cd your-portfolio-repo
+git clone  https://tejasachuu.github.io/portfolio/
+cd portfolio
 ```
 ### Open in Browser
 Open the index.html file in your preferred web browser to view the portfolio website.
