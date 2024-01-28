@@ -83,16 +83,7 @@ $(document).ready(function () {
       reset: true
   });
   
-  // Add this JavaScript code in your index.js file or within a script tag in your HTML
-ScrollReveal().reveal('.vertical-line', {
-    duration: 2000,
-    distance: '100px',
-    origin: 'bottom',
-    beforeReveal: function (domEl) {
-        // Add the "active" class to the vertical line to trigger the animation
-        domEl.classList.add('active');
-    }
-});
+
 
   
   // Add this code at the end of the file
