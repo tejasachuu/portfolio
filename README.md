@@ -28,19 +28,23 @@ To run or modify this project, you'll need a code editor such as Visual Studio C
 
 ### Clone the Repository
 
-bash
+```bash
 git clone https://github.com/your-username/your-portfolio-repo.git
 cd your-portfolio-repo
-
+```
 ### Open in Browser
 Open the index.html file in your preferred web browser to view the portfolio website.
 
 ###Project Structure
 /portfolio 
+```
 |-- assets
-|-- index.html
-|-- style.css
-|-- script.js
 
+|-- index.html
+
+|-- style.css
+
+|-- script.js
+```
 ###Contributing
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
