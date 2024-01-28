@@ -676,16 +676,17 @@ header .navbar ul li a:hover{
         width:100%;
     }
 
-    .achievements .row .info{
+     .vertical-line {
+            display: none;
+        }
+    .portfolio .box-container .box{
         width:100%;
     }
-
-
 
     .contact .row form{
         margin:3rem 0;
     }
- 
+
  }
 
 
