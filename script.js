@@ -106,13 +106,21 @@ ScrollReveal().reveal('.vertical-line', {
         animateProgressBar("pro", "proText", 60); // Adjust the percentage as needed
     });
 
-    function animateProgressBar(progressId, textId, targetWidth) {
-        const progressBar = $('#' + progressId);
-        const progressText = $('#' + textId);
-        progressBar.animate({
-            width: targetWidth + '%'
-        }, 500, function () {
-            // Animation complete, add percentage text
-            progressText.html('<span style="color: white; font-size: 18px;">' + targetWidth + '%</span>');
-        });
+ 
+function animateProgressBar(progressId, textId, targetWidth) {
+    const progressBar = $('#' + progressId);
+    const progressText = $('#' + textId);
+    progressBar.animate({
+        width: targetWidth + '%'
+    }, 500, function () {
+        progressText.html('<span style="color: white; font-size: 18px;">' + targetWidth + '%</span>');
+    });
+}
+
+// Close the menu on click of a tab (section)
+$('header nav ul li a').on('click', function () {
+    if ($(window).width() < 992) {
+        $('#menu').removeClass('fa-times');
+        $('header').removeClass('toggle');
     }
+});
